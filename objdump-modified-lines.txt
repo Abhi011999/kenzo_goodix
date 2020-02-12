@@ -1,0 +1,2 @@
+libfpservice.so.txt --> 4633 -> 4644 (1618c -> 161b8)  exclusions --> 4643 (161b4)
+                        4722 -> 4733 (162e8 -> 16314)  exclusions --> 4729 (16304)
