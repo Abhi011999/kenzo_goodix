@@ -4630,18 +4630,18 @@ Disassembly of section .text:
    16180:	2a1603e3 	mov	w3, w22
    16184:	f940b8a4 	ldr	x4, [x5, #368]
    16188:	d63f0080 	blr	x4
-   1618c:	f94023e0 	ldr	x0, [sp, #64]
-   16190:	b40000c0 	cbz	x0, 161a8 <_ZN7android12notifyClientEiii@@Base+0xd0>
-   16194:	f9400002 	ldr	x2, [x0]
-   16198:	aa1503e1 	mov	x1, x21
-   1619c:	f85e8042 	ldur	x2, [x2, #-24]
-   161a0:	8b020000 	add	x0, x0, x2
-   161a4:	97fff07b 	bl	12390 <_ZNK7android7RefBase9decStrongEPKv@plt>
-   161a8:	f947c273 	ldr	x19, [x19, #3968]
-   161ac:	f94027e1 	ldr	x1, [sp, #72]
-   161b0:	f9400260 	ldr	x0, [x19]
+   1618c:	d503201f 	nop
+   16190:	d503201f 	nop
+   16194:	d503201f 	nop
+   16198:	d503201f 	nop
+   1619c:	d503201f 	nop
+   161a0:	d503201f 	nop
+   161a4:	d503201f 	nop
+   161a8:	d503201f 	nop
+   161ac:	d503201f 	nop
+   161b0:	d503201f 	nop
    161b4:	eb00003f 	cmp	x1, x0
-   161b8:	54000441 	b.ne	16240 <_ZN7android12notifyClientEiii@@Base+0x168>  // b.any
+   161b8:	d503201f 	nop
    161bc:	a94053f3 	ldp	x19, x20, [sp]
    161c0:	a9415bf5 	ldp	x21, x22, [sp, #16]
    161c4:	a94263f7 	ldp	x23, x24, [sp, #32]
@@ -4719,18 +4719,18 @@ Disassembly of section .text:
    162dc:	aa1503e3 	mov	x3, x21
    162e0:	f940bca4 	ldr	x4, [x5, #376]
    162e4:	d63f0080 	blr	x4
-   162e8:	f9401be2 	ldr	x2, [sp, #48]
-   162ec:	b40000c2 	cbz	x2, 16304 <_ZN7android15postData2ClientEiiPc@@Base+0x98>
-   162f0:	f9400040 	ldr	x0, [x2]
-   162f4:	aa1403e1 	mov	x1, x20
-   162f8:	f85e8000 	ldur	x0, [x0, #-24]
-   162fc:	8b000040 	add	x0, x2, x0
-   16300:	97fff024 	bl	12390 <_ZNK7android7RefBase9decStrongEPKv@plt>
+   162e8:	d503201f 	nop
+   162ec:	d503201f 	nop
+   162f0:	d503201f 	nop
+   162f4:	d503201f 	nop
+   162f8:	d503201f 	nop
+   162fc:	d503201f 	nop
+   16300:	d503201f 	nop
    16304:	f947c273 	ldr	x19, [x19, #3968]
-   16308:	f9401fe1 	ldr	x1, [sp, #56]
-   1630c:	f9400260 	ldr	x0, [x19]
-   16310:	eb00003f 	cmp	x1, x0
-   16314:	54000381 	b.ne	16384 <_ZN7android15postData2ClientEiiPc@@Base+0x118>  // b.any
+   16308:	d503201f 	nop
+   1630c:	d503201f 	nop
+   16310:	d503201f 	nop
+   16314:	d503201f 	nop
    16318:	a94053f3 	ldp	x19, x20, [sp]
    1631c:	a9415bf5 	ldp	x21, x22, [sp, #16]
    16320:	a9427bf7 	ldp	x23, x30, [sp, #32]
