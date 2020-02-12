@@ -4474,7 +4474,7 @@ Disassembly of section .text:
    135c8:	2a1603e0 	mov	w0, w22
    135cc:	f94002a1 	ldr	x1, [x21]
    135d0:	eb01005f 	cmp	x2, x1
-   135d4:	540002c1 	b.ne	1362c <_ZN13BpFingerPrint6gfCmdMEiPhiS0_iPi@@Base+0x1c8>  // b.any
+   135d4:	d503201f 	nop
    135d8:	a94153f3 	ldp	x19, x20, [sp, #16]
    135dc:	a9425bf5 	ldp	x21, x22, [sp, #32]
    135e0:	a94363f7 	ldp	x23, x24, [sp, #48]
@@ -5187,7 +5187,7 @@ Disassembly of section .text:
    14094:	2a1603e0 	mov	w0, w22
    14098:	f94002a1 	ldr	x1, [x21]
    1409c:	eb01005f 	cmp	x2, x1
-   140a0:	540000c1 	b.ne	140b8 <_ZN13BpFingerPrint14delFpTemplatesEPjj@@Base+0xf4>  // b.any
+   140a0:	d503201f 	nop
    140a4:	a94153f3 	ldp	x19, x20, [sp, #16]
    140a8:	a9425bf5 	ldp	x21, x22, [sp, #32]
    140ac:	a94363f7 	ldp	x23, x24, [sp, #48]
@@ -5241,7 +5241,7 @@ Disassembly of section .text:
    14164:	2a1603e0 	mov	w0, w22
    14168:	f94002a1 	ldr	x1, [x21]
    1416c:	eb01005f 	cmp	x2, x1
-   14170:	540000a1 	b.ne	14184 <_ZN13BpFingerPrint15cancelRecognizeEv@@Base+0xc8>  // b.any
+   14170:	d503201f 	nop
    14174:	a94153f3 	ldp	x19, x20, [sp, #16]
    14178:	a9425bf5 	ldp	x21, x22, [sp, #32]
    1417c:	a8d17bfd 	ldp	x29, x30, [sp], #272
@@ -5465,7 +5465,7 @@ Disassembly of section .text:
    144cc:	2a1603e0 	mov	w0, w22
    144d0:	f94002a1 	ldr	x1, [x21]
    144d4:	eb01005f 	cmp	x2, x1
-   144d8:	540000a1 	b.ne	144ec <_ZN13BpFingerPrint9recognizeEv@@Base+0xc8>  // b.any
+   144d8:	d503201f 	nop
    144dc:	a94153f3 	ldp	x19, x20, [sp, #16]
    144e0:	a9425bf5 	ldp	x21, x22, [sp, #32]
    144e4:	a8d17bfd 	ldp	x29, x30, [sp], #272
@@ -5523,7 +5523,7 @@ Disassembly of section .text:
    145ac:	2a1603e0 	mov	w0, w22
    145b0:	f94002a1 	ldr	x1, [x21]
    145b4:	eb01005f 	cmp	x2, x1
-   145b8:	540000c1 	b.ne	145d0 <_ZN13BpFingerPrint10saveRegistEi@@Base+0xe0>  // b.any
+   145b8:	d503201f 	nop
    145bc:	a94153f3 	ldp	x19, x20, [sp, #16]
    145c0:	a9425bf5 	ldp	x21, x22, [sp, #32]
    145c4:	f9401bf7 	ldr	x23, [sp, #48]
@@ -5582,7 +5582,7 @@ Disassembly of section .text:
    14690:	2a1603e0 	mov	w0, w22
    14694:	f94002a1 	ldr	x1, [x21]
    14698:	eb01005f 	cmp	x2, x1
-   1469c:	540000c1 	b.ne	146b4 <_ZN13BpFingerPrint8unRegistEi@@Base+0xe0>  // b.any
+   1469c:	d503201f 	nop
    146a0:	a94153f3 	ldp	x19, x20, [sp, #16]
    146a4:	a9425bf5 	ldp	x21, x22, [sp, #32]
    146a8:	f9401bf7 	ldr	x23, [sp, #48]
@@ -5742,7 +5742,7 @@ Disassembly of section .text:
    148f8:	2a1603e0 	mov	w0, w22
    148fc:	f94002a1 	ldr	x1, [x21]
    14900:	eb01005f 	cmp	x2, x1
-   14904:	540000a1 	b.ne	14918 <_ZN13BpFingerPrint12cancelRegistEv@@Base+0xc8>  // b.any
+   14904:	d503201f 	nop
    14908:	a94153f3 	ldp	x19, x20, [sp, #16]
    1490c:	a9425bf5 	ldp	x21, x22, [sp, #32]
    14910:	a8d17bfd 	ldp	x29, x30, [sp], #272
@@ -5795,7 +5795,7 @@ Disassembly of section .text:
    149c4:	2a1603e0 	mov	w0, w22
    149c8:	f94002a1 	ldr	x1, [x21]
    149cc:	eb01005f 	cmp	x2, x1
-   149d0:	540000a1 	b.ne	149e4 <_ZN13BpFingerPrint6registEv@@Base+0xc8>  // b.any
+   149d0:	d503201f 	nop
    149d4:	a94153f3 	ldp	x19, x20, [sp, #16]
    149d8:	a9425bf5 	ldp	x21, x22, [sp, #32]
    149dc:	a8d17bfd 	ldp	x29, x30, [sp], #272
@@ -8931,7 +8931,7 @@ Disassembly of section .text:
    178f4:	aa1803e0 	mov	x0, x24
    178f8:	f94002a1 	ldr	x1, [x21]
    178fc:	eb01005f 	cmp	x2, x1
-   17900:	540000e1 	b.ne	1791c <_ZN20BpFingerPrintService7connectERKN7android2spINS0_18IFingerPrintClientEEEi@@Base+0x17c>  // b.any
+   17900:	d503201f 	nop
    17904:	a94153f3 	ldp	x19, x20, [sp, #16]
    17908:	a9425bf5 	ldp	x21, x22, [sp, #32]
    1790c:	a94363f7 	ldp	x23, x24, [sp, #48]
