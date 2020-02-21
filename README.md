@@ -1,4 +1,6 @@
 kenzo_goodix
+<span> | </span>
+<img src="https://img.shields.io/badge/Status-Not%20Working-red?style=flat-square" />
 =============
 
 ## What is it ?
@@ -7,7 +9,7 @@ These are the modified hex-dumps of goodix fingerprint blobs (and the patched bl
 
 ## How did i hex-edited them ?
 
-Well, i recently found from my friend [@magicxsavi](https://github.com/magicxavi) that a guy neamed [Arth Doshi](https://github.com/arthdoshi33) hex-edited goodix blobs for santoni device and uploaded the objdumps and hexdumps of the details
+Well, i recently found from my friend [@magicxsavi](https://github.com/magicxavi) that a guy named [Arth Doshi](https://github.com/arthdoshi33) hex-edited goodix blobs for santoni device and uploaded the objdumps and hexdumps of the details
 on his github [repo](https://github.com/arthdoshi33/Goodix). From there i got a clue about how and exactly what to hex-edit. So i extracted the original fingerprint dumps of kenzo and took-off.
 [This](https://stackoverflow.com/a/52587878) stackoverflow answer got me almost all help about how to actually get started. I used `vscode` and `vim` on ubuntu to hex-edit them.
 
@@ -47,8 +49,8 @@ on his github [repo](https://github.com/arthdoshi33/Goodix). From there i got a 
 - The right-most digit will consist of these four digits - `0` or `4` or `8` or `c`, and that's how you will determine which octet (hex-code) to look.
 - `0` means first octet, example by above dump - `e1 03 18 aa`,
 - `c` means fourth octet, example - `45 e7 ff 97`, etc.
-- After we have found the line and the octet, we will move onto making sure we have found right line. If you look at the obdump's hex-code in reverse by two characters taken together, you can see that they are similar to the hex-codes in the hex-dump.
-- Like `f85e8000` in reverse with two characters taken together is `00 80 5e f8`, which is in second octet as the last digit `4` of the byte address in objdump mentions it. Hence Verified !
+- After we have found the line and the octet, we will move onto making sure we have found right line. If you look at the obdump's hex-code in reverse with two characters grouped together, you can see that they are similar to the hex-codes in the hex-dump.
+- Like `f85e8000` in reverse with two characters grouped together is `00 80 5e f8`, which is in second octet as the last digit `4` of the byte address in objdump mentions it. Hence Verified !
 - Now we will replace the octet with `no-op`'s hex-code, which is `1f 20 03 d5`, equivalent to `d503201f` in objdump's hex-code.
 - Replace all the required octets with above `1f 20 03 d5` by following above steps and we are done hex-editing !
 
